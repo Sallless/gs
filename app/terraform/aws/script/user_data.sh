@@ -11,7 +11,7 @@ sudo systemctl enable httpd
     
 echo "Install application"
 cd /tmp
-git clone https://github.com/Sallless/salles-gs-iac
+git clone https://github.com/Sallless/salles-gs-iac.git
 mkdir /var/www/html
 cp /tmp/salles-gs-iac/app/*.html /var/www/html
 
