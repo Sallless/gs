@@ -13,7 +13,7 @@ echo "Install application"
 cd /tmp
 git clone https://github.com/Sallless/gs.git
 mkdir /var/www/html
-cp /tmp/gs/*.html /var/www/html
+cp /tmp/gs/app/*.html /var/www/html
 
 echo "Start Apache service"
 service httpd restart
