@@ -15,7 +15,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "tf-sub-backend"
+    bucket         = "tf-sallles-backend"
     key            = "terraform.tfstate"
 
     
