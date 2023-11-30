@@ -152,3 +152,4 @@ resource "aws_lb_target_group_attachment" "web-2" {
   target_id        = aws_instance.web-2.id
   port             = 80
 }
+
